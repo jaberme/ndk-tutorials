@@ -19,9 +19,7 @@
 -->
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-      package="com.android.tutorial1"
-      android:versionCode="1"
-      android:versionName="1.0">
+      package="com.android.tutorial1">
     <uses-sdk android:minSdkVersion="16" />
     <application android:label="Tutorial1"
                  android:debuggable="true">
