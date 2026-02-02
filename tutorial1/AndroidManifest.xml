@@ -19,10 +19,12 @@
 -->
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-      package="com.android.tutorial1">
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.android.tutorial1">
     <uses-sdk android:minSdkVersion="16" />
     <application android:label="Tutorial1"
-                 android:debuggable="true">
+                 android:debuggable="true"
+        tools:ignore="HardcodedDebugMode">
         <activity android:name=".Tutorial1Activity"
                   android:label="Tutorial1">
             <intent-filter>
