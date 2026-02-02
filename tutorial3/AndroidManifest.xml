@@ -18,15 +18,11 @@
 */
 -->
 
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-      package="com.android.tutorial3"
-      android:versionCode="1"
-      android:versionName="1.0">
-    <uses-sdk android:minSdkVersion="16" />
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
-    <application android:label="Tutorial3"
-                 android:debuggable="true">
+    <application android:label="Tutorial3">
         <activity android:name=".Tutorial3Activity"
+                  android:exported="true"
                   android:label="Tutorial3">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

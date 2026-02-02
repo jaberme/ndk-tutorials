@@ -18,14 +18,10 @@
 */
 -->
 
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-      package="com.android.tutorial2"
-      android:versionCode="1"
-      android:versionName="1.0">
-    <uses-sdk android:minSdkVersion="16" />
-    <application android:label="Tutorial2"
-                 android:debuggable="true">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <application android:label="Tutorial2">
         <activity android:name=".Tutorial2Activity"
+                  android:exported="true"
                   android:label="Tutorial2">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
